@@ -1,0 +1,3 @@
+{{range $index, $value := .}}
+{{ uc $index}} -> {{$value}}
+{{end}}
